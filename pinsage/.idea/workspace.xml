@@ -1,0 +1,830 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e29b06ab-5eea-4104-b46b-2e60e9e79a53" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.unuse/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DCGAN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets/custom_dataset.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets/d__hist.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets/d_hist.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets/d_loss.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets/g_loss.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets/mnist1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets/mnist2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets/mnist3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets/result_16_01_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets/result_16_01_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets/result_16_01_04_.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets/test_2016-01-27 15_07_47.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets/test_2016-01-27 15_08_45.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets/test_2016-01-27 15_08_54.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets/test_2016-01-27 15_08_57.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets/test_2016-01-27 15_09_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets/test_2016-01-27 15_09_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets/test_2016-01-27 15_09_46.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets/test_2016-01-27 15_09_50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets/training.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../average.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../download.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ops.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/css/fakeLoader.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/fonts/slick.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/img/average.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/img/change1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/img/change2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/img/change3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/img/change4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/img/change5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/img/change6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/img/downloads-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/img/f1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/img/f10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/img/f11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/img/f12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/img/f13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/img/f14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/img/f15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/img/f16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/img/f17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/img/f2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/img/f3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/img/f4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/img/f5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/img/f6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/img/f7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/img/f8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/img/f9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/img/intro-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/img/model.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/img/ogimage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/img/single1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/img/single2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/img/single3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/img/single4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/img/t1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/img/t2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/img/t3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/img/t4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/img/t5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/img/t6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/img/t7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/js/convnet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/js/layers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/js/vendor/fakeLoader.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/js/vendor/jquery.easing.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/js/vendor/pixel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/videos/background.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/videos/random.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/videos/training.mp4" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1401938706">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="data" value="5" />
+          <entry key="genre" value="2" />
+          <entry key="item" value="3" />
+          <entry key="occupation" value="3" />
+          <entry key="py" value="119" />
+          <entry key="txt" value="113" />
+          <entry key="user" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="128" />
+          <entry key="Python" value="119" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="20" />
+          <entry key="py" value="30824" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="20" />
+          <entry key="Python" value="30824" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.3823065">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/load_data.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="27">
+                  <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+                  <folding>
+                    <marker date="1575118384191" expanded="true" signature="87:275" ph="..." />
+                    <marker date="1575118384191" expanded="true" signature="776:1480" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="2067">
+                  <caret line="170" column="39" selection-start-line="170" selection-start-column="39" selection-end-line="170" selection-end-column="39" />
+                  <folding>
+                    <element signature="e#0#15#0" expanded="true" />
+                    <marker date="1575255576808" expanded="true" signature="3553:5792" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/graphsage/model.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1796">
+                  <caret line="307" column="15" selection-start-line="307" selection-start-column="15" selection-end-line="307" selection-end-column="15" />
+                  <folding>
+                    <element signature="e#0#23#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/graphsage/minibatch.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1804">
+                  <caret line="113" column="8" selection-start-line="113" selection-start-column="8" selection-end-line="113" selection-end-column="8" />
+                  <folding>
+                    <element signature="e#0#31#0" expanded="true" />
+                    <marker date="1574948535850" expanded="true" signature="4439:4530" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/data/train.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1797341">
+                  <caret line="66726" column="20" lean-forward="true" selection-start-line="66726" selection-start-column="20" selection-end-line="66726" selection-end-column="20" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/ns.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="368">
+                  <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+                  <folding>
+                    <element signature="e#0#31#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/base_ns.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="401">
+                  <caret line="32" column="25" lean-forward="true" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+                  <folding>
+                    <element signature="e#0#18#0" expanded="true" />
+                    <marker date="1575257207424" expanded="true" signature="508:532" ph="..." />
+                    <marker date="1575257207424" expanded="true" signature="529:530" ph="..." />
+                    <marker date="1575257207424" expanded="true" signature="529:531" ph="..." />
+                    <marker date="1575257207424" expanded="true" signature="632:1076" ph="..." />
+                    <marker date="1575257207424" expanded="true" signature="1074:1075" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/baseline_model.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="216">
+                  <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+                  <folding>
+                    <element signature="e#0#23#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>1146</find>
+      <find>1363</find>
+      <find>train_data_by_type</find>
+      <find>user_id</find>
+      <find>942</find>
+      <find>load_</find>
+      <find>train_pairs</find>
+      <find>work_dir</find>
+      <find>validate_iter</find>
+      <find>train_data.txt</find>
+      <find>feature_dict</find>
+      <find>id2idx</find>
+      <find>self.val_edges</find>
+      <find>metrics</find>
+      <find>features</find>
+      <find>features</find>
+      <find>val_adj_info</find>
+      <find>featureless</find>
+      <find>aggregate</find>
+      <find>args</find>
+      <find>FLAGS</find>
+      <find>MLP</find>
+      <find>neg_samples</find>
+      <find>construct_placeholders</find>
+      <find>opt_op</find>
+      <find>avg_time</find>
+      <find>train_adj_info</find>
+      <find>epoch_val_costs</find>
+      <find>train_data</find>
+      <find>_accuracy</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/data/ml.py" />
+        <option value="$PROJECT_DIR$/data/1.py" />
+        <option value="$PROJECT_DIR$/src/dataset.py" />
+        <option value="$PROJECT_DIR$/data/data_split.py" />
+        <option value="$PROJECT_DIR$/src/walk.py" />
+        <option value="$PROJECT_DIR$/src/aggregrators.py" />
+        <option value="$PROJECT_DIR$/src/model.py" />
+        <option value="$PROJECT_DIR$/src/graphsage/layers.py" />
+        <option value="$PROJECT_DIR$/src/graphsage/inits.py" />
+        <option value="$PROJECT_DIR$/data/utils.py" />
+        <option value="$PROJECT_DIR$/data/u.occupation" />
+        <option value="$PROJECT_DIR$/data/feature_process.py" />
+        <option value="$PROJECT_DIR$/src/graphsage/metrics.py" />
+        <option value="$PROJECT_DIR$/src/node2vec.py" />
+        <option value="$PROJECT_DIR$/src/graphsage/utils.py" />
+        <option value="$PROJECT_DIR$/data/.unuse/python/data_split.py" />
+        <option value="$PROJECT_DIR$/data/.unuse/python/datasplit/data.py" />
+        <option value="$PROJECT_DIR$/data/pos-neg.py" />
+        <option value="$PROJECT_DIR$/src/graphsage/minibatch.py" />
+        <option value="$PROJECT_DIR$/src/graphsage/prediction.py" />
+        <option value="$PROJECT_DIR$/src/graphsage/model.py" />
+        <option value="$PROJECT_DIR$/src/load_data.py" />
+        <option value="$PROJECT_DIR$/src/ns.py" />
+        <option value="$PROJECT_DIR$/src/main.py" />
+        <option value="$PROJECT_DIR$/src/base_ns.py" />
+        <option value="$PROJECT_DIR$/src/baseline_model.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="1680" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="graphsage" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data/.unuse/python" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data/.unuse/datasplit" />
+      <recent name="$PROJECT_DIR$/data/.unuse/python" />
+      <recent name="$PROJECT_DIR$/data" />
+      <recent name="$PROJECT_DIR$/data/.unuse/python/datasplit" />
+      <recent name="$PROJECT_DIR$/data/.unuse" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.base_ns">
+    <configuration name="base_ns" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/base_ns.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data/.unuse/python/datasplit" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data/.unuse/python/datasplit/data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="data_split" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data/data_split.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="load_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/load_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pos-neg" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data/.unuse/datasplit/pos-neg.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.data_split" />
+      <item itemvalue="Python.load_data" />
+      <item itemvalue="Python.data" />
+      <item itemvalue="Python.pos-neg" />
+      <item itemvalue="Python.base_ns" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.base_ns" />
+        <item itemvalue="Python.pos-neg" />
+        <item itemvalue="Python.data" />
+        <item itemvalue="Python.load_data" />
+        <item itemvalue="Python.data_split" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e29b06ab-5eea-4104-b46b-2e60e9e79a53" name="Default Changelist" comment="" />
+      <created>1571904009155</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571904009155</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1680" y="0" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1342812" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3291536" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32826748" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1342812" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3291536" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32826748" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/data/data_split.py" />
+    <entry file="file://$PROJECT_DIR$/data/train_pos_ok.txt" />
+    <entry file="file://$PROJECT_DIR$/data/negative.txt" />
+    <entry file="file://$PROJECT_DIR$/data/ml.py" />
+    <entry file="file://$PROJECT_DIR$/src/walk.py" />
+    <entry file="file://$PROJECT_DIR$/data/.unuse/negative.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-23905" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/.unuse/u.occupation">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/.unuse/u.genre">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/.unuse/u.user">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="18" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/feature_process.py" />
+    <entry file="file://$PROJECT_DIR$/data/.unuse/u.item">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-44290">
+          <caret line="12" column="138" lean-forward="true" selection-start-line="12" selection-start-column="138" selection-end-line="12" selection-end-column="138" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/features.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/item_feature.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/graphsage/inits.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/graphsage/layers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="813">
+          <caret line="81" column="24" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/graphsage/metrics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/graphsage/aggregators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/graphsage/utils.py" />
+    <entry file="file://$PROJECT_DIR$/data/.unuse/python/datasplit/positive.txt" />
+    <entry file="file://$PROJECT_DIR$/data/.unuse/python/datasplit/train.txt" />
+    <entry file="file://$PROJECT_DIR$/data/.unuse/python/datasplit/train_pos_ok.txt" />
+    <entry file="file://$PROJECT_DIR$/data/.unuse/python/datasplit/train_pos.txt" />
+    <entry file="file://$PROJECT_DIR$/data/.unuse/python/datasplit/negative.txt" />
+    <entry file="file://$PROJECT_DIR$/data/.unuse/python/datasplit/valid.txt" />
+    <entry file="file://$PROJECT_DIR$/data/.unuse/python/datasplit/test.txt" />
+    <entry file="file://$PROJECT_DIR$/data/.unuse/python/datasplit/train_ok.txt" />
+    <entry file="file://$PROJECT_DIR$/data/.unuse/python/datasplit/data.py" />
+    <entry file="file://$PROJECT_DIR$/data/.unuse/python/datasplit/train_neg.txt" />
+    <entry file="file://$PROJECT_DIR$/data/.unuse/python/datasplit/ml.txt" />
+    <entry file="file://$PROJECT_DIR$/data/.unuse/python/ml.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/.unuse/python/data_split.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3377">
+          <caret line="140" selection-start-line="140" selection-end-line="140" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/valid_ok.txt" />
+    <entry file="file://$PROJECT_DIR$/data/.unuse/datasplit/valid.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-222214" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/.unuse/datasplit/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-214141">
+          <caret line="307" column="8" selection-start-line="307" selection-start-column="4" selection-end-line="307" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/.unuse/datasplit/pos-neg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="694">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/test_ok.txt" />
+    <entry file="file://$PROJECT_DIR$/data/user_feature.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1620" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/test.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/valid.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/.unuse/train_ok.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/node2vec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="52" column="31" lean-forward="true" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/graphsage/prediction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3159">
+          <caret line="117" column="50" selection-start-line="117" selection-start-column="50" selection-end-line="117" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/.unuse/train_data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="7071" column="11" selection-start-line="7071" selection-start-column="11" selection-end-line="7071" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/graphsage/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1796">
+          <caret line="307" column="15" selection-start-line="307" selection-start-column="15" selection-end-line="307" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ns.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/train.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1797341">
+          <caret line="66726" column="20" lean-forward="true" selection-start-line="66726" selection-start-column="20" selection-end-line="66726" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2067">
+          <caret line="170" column="39" selection-start-line="170" selection-start-column="39" selection-end-line="170" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1575255576808" expanded="true" signature="3553:5792" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/graphsage/minibatch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1804">
+          <caret line="113" column="8" selection-start-line="113" selection-start-column="8" selection-end-line="113" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+            <marker date="1574948535850" expanded="true" signature="4439:4530" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/load_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+          <folding>
+            <marker date="1575118384191" expanded="true" signature="87:275" ph="..." />
+            <marker date="1575118384191" expanded="true" signature="776:1480" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base_ns.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="32" column="25" lean-forward="true" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <marker date="1575257207424" expanded="true" signature="508:532" ph="..." />
+            <marker date="1575257207424" expanded="true" signature="529:530" ph="..." />
+            <marker date="1575257207424" expanded="true" signature="529:531" ph="..." />
+            <marker date="1575257207424" expanded="true" signature="632:1076" ph="..." />
+            <marker date="1575257207424" expanded="true" signature="1074:1075" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baseline_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
